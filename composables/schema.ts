@@ -1,6 +1,6 @@
 // composables/schema.ts — Schema.org @graph helpers for giftscored.com.
 //
-// Ported from the sibling Ramban Group scaffold at idealgiftfor. Intentionally
+// Built on the canonical Ramban Group scaffold pattern. Intentionally
 // fresh copy: different node @ids, different description copy, different
 // knowsAbout topics so the JSON-LD fingerprint is distinct per property. Two
 // sites with identical schema structure look like a doorway network; two

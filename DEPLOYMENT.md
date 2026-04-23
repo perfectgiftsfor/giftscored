@@ -86,6 +86,25 @@ For this property we self-host Matomo (distinct from any Google Analytics proper
    - Disable fingerprint-based tracking.
    - Respect Do Not Track.
 4. Add the Matomo tracking snippet to `layouts/default.vue` behind an environment check. Keep the snippet tiny and asynchronous so it does not block rendering.
+
+   Add this snippet to `layouts/default.vue` inside the template's `<head>` or via `useHead()` in a `<script setup>` block:
+
+   ```html
+   <script>
+     var _paq = window._paq = window._paq || [];
+     _paq.push(['trackPageView']);
+     _paq.push(['enableLinkTracking']);
+     (function() {
+       var u="https://analytics.giftscored.com/";
+       _paq.push(['setTrackerUrl', u+'matomo.php']);
+       _paq.push(['setSiteId', '1']);
+       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+       g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+     })();
+   </script>
+   ```
+
+   Swap `analytics.giftscored.com` for your self-hosted Matomo URL, and `'1'` for the site ID from your Matomo dashboard.
 5. Add the tracker URL to the `Content-Security-Policy` allow-list if you later add a CSP header at the Render level.
 
 ## 7. Google Search Console

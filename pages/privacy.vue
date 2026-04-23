@@ -18,7 +18,12 @@ const description =
 
 useHead({
   title,
-  meta: [{ name: 'description', content: description }],
+  meta: [
+    { name: 'description', content: description },
+    { property: 'og:title', content: title },
+    { property: 'og:description', content: description },
+    { property: 'og:url', content: SITE.url + '/privacy/' },
+  ],
   link: [{ rel: 'canonical', href: SITE.url + '/privacy/' }],
 });
 
@@ -46,10 +51,12 @@ useJsonLd(
     <p class="byline">Effective {{ DATE_PUBLISHED }} &middot; Last updated {{ DATE_MODIFIED }}</p>
 
     <p class="bottom-line">
-      This is a placeholder privacy policy that will be replaced with
-      the finalised document once analytics, email, and affiliate
-      partners are confirmed at launch. The commitments below apply
-      from day one regardless.
+      GiftScored collects the minimum data needed to publish an
+      editorial site: aggregate analytics, and email if you write to
+      us. We do not build reader profiles, we do not sell email
+      addresses, and we do not run third-party advertising trackers.
+      The commitments below apply from day one and are audit-ready as
+      stated.
     </p>
 
     <h2>What we collect</h2>

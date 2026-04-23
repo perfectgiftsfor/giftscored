@@ -18,7 +18,12 @@ const description =
 
 useHead({
   title,
-  meta: [{ name: 'description', content: description }],
+  meta: [
+    { name: 'description', content: description },
+    { property: 'og:title', content: title },
+    { property: 'og:description', content: description },
+    { property: 'og:url', content: SITE.url + '/terms/' },
+  ],
   link: [{ rel: 'canonical', href: SITE.url + '/terms/' }],
 });
 
@@ -46,9 +51,11 @@ useJsonLd(
     <p class="byline">Effective {{ DATE_PUBLISHED }} &middot; Last updated {{ DATE_MODIFIED }}</p>
 
     <p class="bottom-line">
-      This is a placeholder terms document that will be replaced with
-      the finalised terms of use once the operating entity is
-      incorporated. The commitments below apply from day one regardless.
+      These are the terms under which GiftScored content is
+      published: an editorial rubric, not personal advice; affiliate
+      links that never influence a score; corrections within 48 hours;
+      standard liability limits for an independent editorial
+      publication. They apply as stated from day one.
     </p>
 
     <h2>Editorial content</h2>

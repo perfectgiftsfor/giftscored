@@ -18,7 +18,12 @@ const description =
 
 useHead({
   title,
-  meta: [{ name: 'description', content: description }],
+  meta: [
+    { name: 'description', content: description },
+    { property: 'og:title', content: title },
+    { property: 'og:description', content: description },
+    { property: 'og:url', content: SITE.url + '/methodology/how-we-score/' },
+  ],
   link: [{ rel: 'canonical', href: SITE.url + '/methodology/how-we-score/' }],
 });
 
@@ -131,6 +136,54 @@ useJsonLd(
       presentable, and whether the arrival experience signals care.
       A product that wins the first three dimensions and loses
       giftability is not a winning gift.
+    </p>
+
+    <h2>How we turn sub-scores into the Gift Score</h2>
+    <p>
+      The composite is the plain sum of the four sub-scores. The
+      sub-scales were chosen so they add to a 0&ndash;100 range
+      without rescaling:
+    </p>
+    <p>
+      <strong>Gift Score = Brand &amp; review density (0&ndash;30) + Category fit (0&ndash;30) + Price-to-value (0&ndash;25) + Giftability (0&ndash;15)</strong>
+    </p>
+    <p>
+      Because 30 + 30 + 25 + 15 = 100, the composite is already on a
+      0&ndash;100 scale and needs no further normalisation. The weights
+      are embedded in the sub-scale ceilings rather than applied as a
+      separate multiplication; this keeps the arithmetic legible for a
+      reader auditing a score on the page.
+    </p>
+
+    <h3>Rounding</h3>
+    <p>
+      Sub-scores are scored to the nearest whole number; the composite
+      is the whole-number sum. In prose we sometimes write
+      &ldquo;high-80s&rdquo; or &ldquo;mid-90s&rdquo; rather than an
+      exact figure when the last digit would imply a precision the
+      public inputs cannot support. A score reported as exactly 87 on a
+      page has been calculated as exactly 87; a score described as
+      &ldquo;high-80s&rdquo; has been calculated and then deliberately
+      softened because the inputs did not justify a single-point claim.
+    </p>
+
+    <h3>A worked example</h3>
+    <p>
+      Consider a premium Breville espresso grinder scored as a gift for
+      a serious home-coffee hobbyist with a four-figure espresso setup
+      already in place:
+    </p>
+    <ul>
+      <li>Brand &amp; review density: <strong>27 / 30</strong> (long editorial track record across multiple publications and refresh cycles, consistent cross-retailer consumer reviews).</li>
+      <li>Category fit: <strong>22 / 30</strong> (the recipient&rsquo;s workflow strongly favours a dedicated grinder at this level; small deduction for the risk that the exact model overlaps an item the recipient already owns).</li>
+      <li>Price-to-value: <strong>18 / 25</strong> (price is calibrated for a significant-milestone moment and the unit carries its price, with a modest deduction for the spend band sitting near the top of the occasion&rsquo;s envelope).</li>
+      <li>Giftability: <strong>11 / 15</strong> (presentable packaging and generous return window; small deduction because the unit is bulky enough that a size-unseen return requires coordination).</li>
+    </ul>
+    <p>
+      <strong>27 + 22 + 18 + 11 = 78.</strong> The page reports a Gift
+      Score of 78, with those four sub-scores printed alongside so the
+      reader can see which dimension carried the composite and which
+      dimension dragged it.
     </p>
 
     <h2>Sanity-check passes</h2>

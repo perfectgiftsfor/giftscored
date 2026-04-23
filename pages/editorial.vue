@@ -18,7 +18,12 @@ const description =
 
 useHead({
   title,
-  meta: [{ name: 'description', content: description }],
+  meta: [
+    { name: 'description', content: description },
+    { property: 'og:title', content: title },
+    { property: 'og:description', content: description },
+    { property: 'og:url', content: SITE.url + '/editorial/' },
+  ],
   link: [{ rel: 'canonical', href: SITE.url + '/editorial/' }],
 });
 
