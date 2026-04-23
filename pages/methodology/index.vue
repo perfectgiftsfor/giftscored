@@ -90,7 +90,7 @@ useJsonLd(
       </tbody>
     </table>
 
-    <h2>The three methodology deep guides</h2>
+    <h2>The methodology deep guides</h2>
     <p>
       Each of the guides below is a standalone document on one part of
       the rubric. Read them in order or jump to the one most relevant
@@ -104,6 +104,10 @@ useJsonLd(
       <li>
         <NuxtLink to="/methodology/how-we-score/"><strong>How the score is calculated</strong></NuxtLink> &mdash;
         the weights with their rationale, the failure modes each dimension is designed to catch, and the sanity-check passes we run before a score is published.
+      </li>
+      <li>
+        <NuxtLink to="/methodology/worked-example-anniversary/"><strong>Worked example: applying the rubric to anniversary gifts</strong></NuxtLink> &mdash;
+        five candidate anniversary gifts scored dimension by dimension against the published rubric, with the rationale for every sub-score and every composite written out in full.
       </li>
       <li>
         <NuxtLink to="/methodology/quarterly-refresh/"><strong>Why the rubric runs quarterly</strong></NuxtLink> &mdash;
