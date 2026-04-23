@@ -10,6 +10,29 @@ export default defineNuxtConfig({
 
   nitro: {
     preset: 'static',
+    prerender: {
+      // Explicit route list with trailing slashes prevents the crawler from
+      // prerendering both /path and /path/ which caused a race where the
+      // second write appended a stray literal `/html>` after the proper
+      // `</html>` tag in generated HTML.
+      crawlLinks: false,
+      routes: [
+        '/',
+        '/methodology/',
+        '/methodology/how-we-pick/',
+        '/methodology/how-we-score/',
+        '/methodology/quarterly-refresh/',
+        '/methodology/worked-example-anniversary/',
+        '/methodology/worked-example-graduation/',
+        '/methodology/worked-example-mom-birthday/',
+        '/masthead/',
+        '/about/',
+        '/editorial/',
+        '/contact/',
+        '/privacy/',
+        '/terms/',
+      ],
+    },
   },
 
   modules: ['@nuxtjs/tailwindcss'],
@@ -25,7 +48,11 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { property: 'og:site_name', content: 'GiftScored' },
         { property: 'og:type', content: 'website' },
+        { property: 'og:image', content: 'https://giftscored.com/og-default.svg' },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
         { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:image', content: 'https://giftscored.com/og-default.svg' },
       ],
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
