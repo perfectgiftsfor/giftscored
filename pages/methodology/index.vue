@@ -110,6 +110,14 @@ useJsonLd(
         five candidate anniversary gifts scored dimension by dimension against the published rubric, with the rationale for every sub-score and every composite written out in full.
       </li>
       <li>
+        <NuxtLink to="/methodology/worked-example-graduation/"><strong>Worked example: applying the rubric to graduation gifts</strong></NuxtLink> &mdash;
+        five candidate graduation gifts scored against the published rubric, showing how the weights separate forward-pointing transition objects from backward-pointing commemorative ones.
+      </li>
+      <li>
+        <NuxtLink to="/methodology/worked-example-mom-birthday/"><strong>Worked example: applying the rubric to mom-birthday gifts</strong></NuxtLink> &mdash;
+        five candidate mom-birthday gifts scored against the published rubric, showing how the weights correctly devalue brand-density signals when category fit and personal specificity are low.
+      </li>
+      <li>
         <NuxtLink to="/methodology/quarterly-refresh/"><strong>Why the rubric runs quarterly</strong></NuxtLink> &mdash;
         what the refresh cycle changes, what triggers an out-of-cycle re-score, and how we version the rubric so an old score can be audited against the rubric that produced it.
       </li>
