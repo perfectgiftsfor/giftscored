@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://giftscored.com/sitemap.xml

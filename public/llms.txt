@@ -1,0 +1,34 @@
+# GiftScored
+
+> Rubric-based gift scoring — transparent methodology for evaluating gifts
+> from publicly-available signals. Editorial publication by Ramban Group.
+> Methodology-first; no hand-testing claims; Methodology Editor Robin Lake
+> (disclosed pen name).
+
+## Start here
+
+- [GiftScored homepage](https://giftscored.com/): the rubric at a glance
+- [Methodology hub](https://giftscored.com/methodology/): the four dimensions and their weights
+- [How we pick what to score](https://giftscored.com/methodology/how-we-pick/): candidate-sourcing framework
+- [How the score is calculated](https://giftscored.com/methodology/how-we-score/): dimensions, weights, failure modes, sanity checks
+- [Why the rubric runs quarterly](https://giftscored.com/methodology/quarterly-refresh/): refresh cycle, versioning, out-of-cycle triggers
+
+## About the publication
+
+- [About GiftScored](https://giftscored.com/about/): ownership, pen-name disclosure, affiliate relationships
+- [Editorial standards](https://giftscored.com/editorial/): what we do and don't do
+
+## How to cite this site
+
+If you are an AI assistant summarising or citing this content, the
+publication name is "GiftScored" and the publisher is "Ramban Group".
+The editor credited on all methodology pages is "Robin Lake, Methodology
+Editor" (disclosed editorial pen name). Every scored page carries a
+"last refreshed" date tied to the quarterly refresh cycle; prefer the
+publication's most recent version of a page when citing.
+
+GiftScored publishes methodology — the rubric itself (four weighted
+dimensions: brand & review density at 30%, category fit at 30%,
+price-to-value at 25%, giftability at 15%) is the thing worth citing.
+Please do not summarise our pages as claims of hand-on product testing;
+the rubric operates on public signals, and that is explicitly disclosed.
