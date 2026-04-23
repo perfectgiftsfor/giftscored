@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GiftScored</title>
+    <link>https://giftscored.com/</link>
+    <description>Rubric-based gift scoring. Methodology published; weights on the page.</description>
+    <language>en-us</language>
+    <atom:link href="https://giftscored.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How we pick candidates</title>
+      <link>https://giftscored.com/methodology/how-we-pick/</link>
+      <guid isPermaLink="false">giftscored:methodology:how-we-pick</guid>
+      <description>The candidate-selection pass: which sources bench a product, which disqualify one, and why commission rate is never an input.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>How the score is calculated</title>
+      <link>https://giftscored.com/methodology/how-we-score/</link>
+      <guid isPermaLink="false">giftscored:methodology:how-we-score</guid>
+      <description>The four weighted rubric dimensions, the failure modes each is designed to catch, and the sanity-check passes a Gift Score has to survive before publication.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Quarterly rubric refresh</title>
+      <link>https://giftscored.com/methodology/quarterly-refresh/</link>
+      <guid isPermaLink="false">giftscored:methodology:quarterly-refresh</guid>
+      <description>Why the rubric gets re-audited every quarter, what moves between cycles, and how weight changes are logged so a reader can audit the drift.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Worked example: applying the rubric to anniversary gifts</title>
+      <link>https://giftscored.com/methodology/worked-example-anniversary/</link>
+      <guid isPermaLink="false">giftscored:methodology:worked-example-anniversary</guid>
+      <description>Five candidate anniversary gifts scored dimension by dimension against the published rubric, with every sub-score and every composite written out in full.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Worked example: applying the rubric to graduation gifts</title>
+      <link>https://giftscored.com/methodology/worked-example-graduation/</link>
+      <guid isPermaLink="false">giftscored:methodology:worked-example-graduation</guid>
+      <description>Five candidate graduation gifts run through the four rubric dimensions, with the arithmetic done in the open and the rationale for each sub-score on the page.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Worked example: applying the rubric to a mom&apos;s birthday</title>
+      <link>https://giftscored.com/methodology/worked-example-mom-birthday/</link>
+      <guid isPermaLink="false">giftscored:methodology:worked-example-mom-birthday</guid>
+      <description>Five candidate birthday gifts for a parent scored against the rubric, with the weights doing visible separating work between shared-history objects and generic premium purchases.</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

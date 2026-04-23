@@ -15,6 +15,7 @@ const year = new Date().getFullYear();
 
         <nav class="flex flex-wrap gap-x-5 gap-y-1 text-sm font-sans">
           <NuxtLink to="/methodology/" class="text-forest hover:text-copper no-underline">Methodology</NuxtLink>
+          <NuxtLink to="/masthead/" class="text-forest hover:text-copper no-underline">Masthead</NuxtLink>
           <NuxtLink to="/about/" class="text-forest hover:text-copper no-underline">About</NuxtLink>
           <NuxtLink to="/editorial/" class="text-forest hover:text-copper no-underline">Editorial</NuxtLink>
           <NuxtLink to="/contact/" class="text-forest hover:text-copper no-underline">Contact</NuxtLink>
