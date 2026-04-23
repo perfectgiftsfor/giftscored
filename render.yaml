@@ -1,0 +1,42 @@
+# Render Blueprint for giftscored.com (Octopus tentacle)
+#
+# Use this file when creating the service via Render dashboard > Blueprints > New.
+# Alternatively, create a Static Site manually and set the same build command /
+# publish path in the dashboard.
+#
+# Render docs: https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: giftscored
+    runtime: static
+    rootDir: .
+    buildCommand: npm install && npm run generate
+    staticPublishPath: ./.output/public
+    pullRequestPreviewsEnabled: true
+    autoDeploy: true
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: Permissions-Policy
+        value: geolocation=(), camera=(), microphone=(), interest-cohort=()
+      - path: /*
+        name: Strict-Transport-Security
+        value: max-age=63072000; includeSubDomains; preload
+      - path: /_nuxt/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /sitemap.xml
+        name: Cache-Control
+        value: public, max-age=3600
+      - path: /llms.txt
+        name: Cache-Control
+        value: public, max-age=3600
