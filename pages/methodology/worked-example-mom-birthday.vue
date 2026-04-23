@@ -217,6 +217,22 @@ useJsonLd(
       That is the point of publishing the arithmetic in the open.
     </p>
 
+    <h2>Related methodology pages</h2>
+    <ul>
+      <li>
+        <NuxtLink to="/methodology/worked-example-anniversary/">Worked example: anniversary gifts</NuxtLink>
+        &mdash; the original worked example; a different relationship and a different set of candidates.
+      </li>
+      <li>
+        <NuxtLink to="/methodology/worked-example-graduation/">Worked example: graduation gifts</NuxtLink>
+        &mdash; a transition-moment worked example where forward-pointing gifts outperform commemorative ones.
+      </li>
+      <li>
+        <NuxtLink to="/methodology/how-we-score/">How the score is calculated</NuxtLink>
+        &mdash; the rubric itself, with sub-scale ceilings and rationale.
+      </li>
+    </ul>
+
     <hr />
     <p>
       <NuxtLink to="/methodology/worked-example-graduation/">&larr; Worked example: graduation gifts</NuxtLink>

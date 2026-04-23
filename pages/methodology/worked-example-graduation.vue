@@ -208,6 +208,22 @@ useJsonLd(
       arithmetic in the open.
     </p>
 
+    <h2>Related methodology pages</h2>
+    <ul>
+      <li>
+        <NuxtLink to="/methodology/worked-example-anniversary/">Worked example: anniversary gifts</NuxtLink>
+        &mdash; the rubric applied to a different moment, where shared-history objects do the heaviest sorting.
+      </li>
+      <li>
+        <NuxtLink to="/methodology/worked-example-mom-birthday/">Worked example: mom&rsquo;s birthday gifts</NuxtLink>
+        &mdash; another moment where the rubric correctly devalues brand-density when category fit is low.
+      </li>
+      <li>
+        <NuxtLink to="/methodology/how-we-score/">How the score is calculated</NuxtLink>
+        &mdash; the rubric itself, with weights and rationale.
+      </li>
+    </ul>
+
     <hr />
     <p>
       <NuxtLink to="/methodology/worked-example-anniversary/">&larr; Worked example: anniversary gifts</NuxtLink>
