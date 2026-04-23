@@ -191,10 +191,13 @@ useJsonLd(
       bottom (52). Heritage-brand objects sit in the middle (68 and
       72) because brand dominance cannot compensate for the
       category-fit and price-to-value weights on moment-specific
-      pages. That separation is the product in action: the weights
-      were chosen deliberately so that brand alone cannot carry a
-      composite into the 80s on an occasion where category fit is
-      the highest-stakes dimension.
+      pages. A similar separation shows up in the
+      <NuxtLink to="/methodology/worked-example-graduation/">graduation worked example</NuxtLink>,
+      where the category-fit dimension again does the heaviest
+      sorting against otherwise strong candidates. That separation is
+      the product in action: the weights were chosen deliberately so
+      that brand alone cannot carry a composite into the 80s on an
+      occasion where category fit is the highest-stakes dimension.
     </p>
 
     <h2>Try it yourself</h2>
@@ -206,6 +209,22 @@ useJsonLd(
       composites above. That is the point of publishing the
       arithmetic in the open.
     </p>
+
+    <h2>Related methodology pages</h2>
+    <ul>
+      <li>
+        <NuxtLink to="/methodology/worked-example-graduation/">Worked example: graduation gifts</NuxtLink>
+        &mdash; the same rubric applied to a different moment, with a different weighting outcome.
+      </li>
+      <li>
+        <NuxtLink to="/methodology/worked-example-mom-birthday/">Worked example: mom&rsquo;s birthday gifts</NuxtLink>
+        &mdash; the rubric correctly devalues brand-and-review density when category fit is low.
+      </li>
+      <li>
+        <NuxtLink to="/methodology/how-we-score/">How the score is calculated</NuxtLink>
+        &mdash; the rubric itself, with the weights and the rationale for each dimension ceiling.
+      </li>
+    </ul>
 
     <hr />
     <p>

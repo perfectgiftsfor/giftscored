@@ -171,7 +171,8 @@ useJsonLd(
     <p>
       Consider a premium Breville espresso grinder scored as a gift for
       a serious home-coffee hobbyist with a four-figure espresso setup
-      already in place:
+      already in place (see the rubric applied to five candidates on a
+      single moment in the <NuxtLink to="/methodology/worked-example-anniversary/">anniversary worked example</NuxtLink>):
     </p>
     <ul>
       <li>Brand &amp; review density: <strong>27 / 30</strong> (long editorial track record across multiple publications and refresh cycles, consistent cross-retailer consumer reviews).</li>
@@ -205,6 +206,22 @@ useJsonLd(
       The rubric is a default, not a verdict. That is the entire point
       of publishing it.
     </p>
+
+    <h2>Related methodology pages</h2>
+    <ul>
+      <li>
+        <NuxtLink to="/methodology/worked-example-anniversary/">Worked example: anniversary gifts</NuxtLink>
+        &mdash; the rubric applied to five candidate anniversary gifts with the arithmetic shown per dimension.
+      </li>
+      <li>
+        <NuxtLink to="/methodology/worked-example-graduation/">Worked example: graduation gifts</NuxtLink>
+        &mdash; a different moment where the category-fit dimension does the heaviest sorting.
+      </li>
+      <li>
+        <NuxtLink to="/methodology/quarterly-refresh/">Quarterly rubric refresh</NuxtLink>
+        &mdash; the editorial discipline that keeps the rubric from fossilising.
+      </li>
+    </ul>
 
     <hr />
     <p>
