@@ -1,4 +1,5 @@
 User-agent: *
-Allow: /
+Disallow: /
 
-Sitemap: https://giftscored.com/sitemap.xml
+# Pre-launch noindex shield — remove Disallow: / at launch-flip per WAVE-2-OPERATOR-WALKTHROUGH §17
+# Sitemap line intentionally removed during shield window; restore at launch

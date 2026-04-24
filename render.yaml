@@ -17,6 +17,9 @@ services:
     autoDeploy: true
     headers:
       - path: /*
+        name: X-Robots-Tag
+        value: noindex, nofollow
+      - path: /*
         name: X-Frame-Options
         value: SAMEORIGIN
       - path: /*
