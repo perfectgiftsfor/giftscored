@@ -23,6 +23,7 @@ useHead({
     { property: 'og:title', content: title },
     { property: 'og:description', content: description },
     { property: 'og:url', content: SITE.url + '/contact/' },
+    { property: 'og:type', content: 'website' },
   ],
   link: [{ rel: 'canonical', href: SITE.url + '/contact/' }],
 });

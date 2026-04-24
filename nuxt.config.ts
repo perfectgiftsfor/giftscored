@@ -48,7 +48,6 @@ export default defineNuxtConfig({
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { property: 'og:site_name', content: 'GiftScored' },
-        { property: 'og:type', content: 'website' },
         { property: 'og:image', content: 'https://giftscored.com/og-default.png' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },

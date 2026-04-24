@@ -23,6 +23,7 @@ useHead({
     { property: 'og:title', content: title },
     { property: 'og:description', content: description },
     { property: 'og:url', content: SITE.url + '/methodology/how-we-pick/' },
+    { property: 'og:type', content: 'article' },
   ],
   link: [{ rel: 'canonical', href: SITE.url + '/methodology/how-we-pick/' }],
 });

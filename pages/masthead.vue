@@ -23,6 +23,7 @@ useHead({
     { property: 'og:title', content: title },
     { property: 'og:description', content: description },
     { property: 'og:url', content: SITE.url + '/masthead/' },
+    { property: 'og:type', content: 'article' },
   ],
   link: [{ rel: 'canonical', href: SITE.url + '/masthead/' }],
 });
