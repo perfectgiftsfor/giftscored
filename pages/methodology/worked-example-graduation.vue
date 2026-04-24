@@ -113,10 +113,11 @@ useJsonLd(
       align with the shape of a transition moment.
     </p>
 
-    <h2>Candidate 2 &mdash; A serious piece of luggage (Away, Monos, Travelpro)</h2>
+    <h2>Candidate 2 &mdash; A serious piece of luggage (<a href="https://www.awaytravel.com/" rel="sponsored nofollow" target="_blank" noopener>Away</a>, <a href="https://www.monos.com/" rel="sponsored nofollow" target="_blank" noopener>Monos</a>, <a href="https://www.travelpro.com/" rel="sponsored nofollow" target="_blank" noopener>Travelpro</a>)</h2>
     <p>
       A carry-on or mid-size bag from a well-reviewed brand at a
-      mid-three-figure spend band.
+      mid-three-figure spend band. Representative listings:
+      <a href="https://www.amazon.com/s?k=Away+carry+on+luggage" rel="sponsored nofollow" target="_blank" noopener>Away carry-on</a>.
     </p>
     <ul>
       <li>Brand &amp; review density: <strong>25 / 30</strong>. Contemporary luggage brands carry decade-plus editorial records with consistent cross-retailer reviews; heritage lines add another layer of track record.</li>
@@ -131,7 +132,7 @@ useJsonLd(
       price through years of use.
     </p>
 
-    <h2>Candidate 3 &mdash; A smartwatch (Apple Watch, Garmin)</h2>
+    <h2>Candidate 3 &mdash; A smartwatch (<a href="https://www.amazon.com/s?k=Apple+Watch" rel="sponsored nofollow" target="_blank" noopener>Apple Watch</a>, <a href="https://www.amazon.com/s?k=Garmin+smartwatch" rel="sponsored nofollow" target="_blank" noopener>Garmin</a>)</h2>
     <p>
       A mid-tier smartwatch from a dominant brand at a
       mid-three-figure spend band.
@@ -151,9 +152,12 @@ useJsonLd(
 
     <h2>Candidate 4 &mdash; A kitchen starter set (chef&rsquo;s knife + cast iron + cookbook)</h2>
     <p>
-      A three-object set: a mid-tier chef&rsquo;s knife, a
-      pre-seasoned cast-iron skillet, and a well-reviewed
-      general-purpose cookbook.
+      A three-object set: a mid-tier
+      <a href="https://www.victorinox.com/" rel="sponsored nofollow" target="_blank" noopener>Victorinox chef&rsquo;s knife</a>, a
+      pre-seasoned
+      <a href="https://www.lodgecastiron.com/" rel="sponsored nofollow" target="_blank" noopener>Lodge cast-iron skillet</a>,
+      and a well-reviewed
+      <a href="https://www.amazon.com/s?k=general+purpose+cookbook" rel="sponsored nofollow" target="_blank" noopener>general-purpose cookbook</a>.
     </p>
     <ul>
       <li>Brand &amp; review density: <strong>21 / 30</strong>. Individual components carry strong records (heritage cookware, long-running publishers); the curated-bundle format sits slightly below a single-brand premium object.</li>
@@ -224,6 +228,10 @@ useJsonLd(
         &mdash; the rubric itself, with weights and rationale.
       </li>
     </ul>
+
+    <p class="affiliate-disclosure" style="font-size: 0.85em; color: #5a6e5f; border-top: 1px solid #b87333; padding-top: 16px; margin-top: 32px;">
+      <strong>A note on links:</strong> some product and brand links on this page may route through affiliate programs. When they do, we may earn a commission on a purchase at no cost to the reader. Commission doesn&rsquo;t influence scoring &mdash; the rubric is published and the weights are fixed; see <NuxtLink to="/editorial/">our editorial standards</NuxtLink> for the full policy.
+    </p>
 
     <hr />
     <p>

@@ -98,7 +98,8 @@ useJsonLd(
 
     <h2>Candidate 1 &mdash; A framed, dated artifact from the couple&rsquo;s year</h2>
     <p>
-      A custom-drawn map of the neighbourhood where the couple met,
+      A <a href="https://www.amazon.com/s?k=custom+framed+map+print+personalised" rel="sponsored nofollow" target="_blank" noopener>custom-drawn map</a>
+      of the neighbourhood where the couple met,
       framed, with the date stamped in the corner.
     </p>
     <ul>
@@ -113,10 +114,12 @@ useJsonLd(
       structurally caps in the high teens.
     </p>
 
-    <h2>Candidate 2 &mdash; A premium watch (Tudor Black Bay, Omega Seamaster)</h2>
+    <h2>Candidate 2 &mdash; A premium watch (<a href="https://www.tudorwatch.com/" rel="sponsored nofollow" target="_blank" noopener>Tudor</a> Black Bay, <a href="https://www.omegawatches.com/" rel="sponsored nofollow" target="_blank" noopener>Omega Seamaster</a>)</h2>
     <p>
       A well-reviewed mechanical watch from a heritage brand at a
-      four-figure spend band.
+      four-figure spend band. See representative listings for
+      <a href="https://www.amazon.com/s?k=Tudor+Black+Bay" rel="sponsored nofollow" target="_blank" noopener>Tudor Black Bay</a>
+      and <a href="https://www.amazon.com/s?k=Omega+Seamaster" rel="sponsored nofollow" target="_blank" noopener>Omega Seamaster</a>.
     </p>
     <ul>
       <li>Brand &amp; review density: <strong>27 / 30</strong>. Decade-plus editorial records across multiple publications; consistent cross-retailer consumer reviews.</li>
@@ -152,6 +155,9 @@ useJsonLd(
     <p>
       A fine-jewellery necklace from a brand with strong
       cross-retailer reviews, at a mid-four-figure spend band.
+      Representative retailers:
+      <a href="https://www.bluenile.com/" rel="sponsored nofollow" target="_blank" noopener>Blue Nile</a>
+      and <a href="https://www.jamesallen.com/" rel="sponsored nofollow" target="_blank" noopener>James Allen</a>.
     </p>
     <ul>
       <li>Brand &amp; review density: <strong>25 / 30</strong>. Large online jewellers with decade-plus records and high review volume score near the top of this dimension.</li>
@@ -168,7 +174,9 @@ useJsonLd(
 
     <h2>Candidate 5 &mdash; A subscription box for the couple</h2>
     <p>
-      A monthly wine, cheese, or coffee subscription marketed as an
+      A monthly wine, cheese, or coffee subscription &mdash; for example
+      <a href="https://www.atlascoffeeclub.com/" rel="sponsored nofollow" target="_blank" noopener>Atlas Coffee Club</a>
+      &mdash; marketed as an
       anniversary gift, first box timed to the anniversary date.
     </p>
     <ul>
@@ -226,6 +234,10 @@ useJsonLd(
         &mdash; the rubric itself, with the weights and the rationale for each dimension ceiling.
       </li>
     </ul>
+
+    <p class="affiliate-disclosure" style="font-size: 0.85em; color: #5a6e5f; border-top: 1px solid #b87333; padding-top: 16px; margin-top: 32px;">
+      <strong>A note on links:</strong> some product and brand links on this page may route through affiliate programs. When they do, we may earn a commission on a purchase at no cost to the reader. Commission doesn&rsquo;t influence scoring &mdash; the rubric is published and the weights are fixed; see <NuxtLink to="/editorial/">our editorial standards</NuxtLink> for the full policy.
+    </p>
 
     <hr />
     <p>

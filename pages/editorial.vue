@@ -105,6 +105,20 @@ useJsonLd(
       disclosure noting that affiliate links appear below.
     </p>
     <p>
+      Some product and brand links in worked-example pages route
+      through affiliate programs &mdash; primarily Amazon Associates,
+      plus a small number of direct brand partnerships. When they do,
+      we earn a commission on qualifying purchases at no extra cost to
+      the reader.
+    </p>
+    <p>
+      Commission does not influence the rubric or the scoring. The
+      rubric is published with its weights; composites are arithmetic
+      sums; sub-scores come from editor&rsquo;s judgment against
+      publicly-available signals. We do not publish paid placements as
+      worked-example picks.
+    </p>
+    <p>
       <strong>The Amazon required statement:</strong> As an Amazon
       Associate, GiftScored earns from qualifying purchases.
     </p>

@@ -96,7 +96,7 @@ useJsonLd(
       reports each composite on the 0&ndash;100 Gift Score range.
     </p>
 
-    <h2>Candidate 1 &mdash; A Storyworth-bound family memoir</h2>
+    <h2>Candidate 1 &mdash; A <a href="https://welcome.storyworth.com/" rel="sponsored nofollow" target="_blank" noopener>Storyworth</a>-bound family memoir</h2>
     <p>
       A twelve-month guided memoir service that collects a
       parent&rsquo;s answers to weekly prompts and binds them into
@@ -115,7 +115,7 @@ useJsonLd(
       mom-birthday moment.
     </p>
 
-    <h2>Candidate 2 &mdash; A Brooklinen or Parachute sheet-set upgrade</h2>
+    <h2>Candidate 2 &mdash; A <a href="https://www.brooklinen.com/" rel="sponsored nofollow" target="_blank" noopener>Brooklinen</a> or <a href="https://www.parachutehome.com/" rel="sponsored nofollow" target="_blank" noopener>Parachute</a> sheet-set upgrade</h2>
     <p>
       A premium linen or percale sheet set from a
       direct-to-consumer bedding brand at a
@@ -134,7 +134,7 @@ useJsonLd(
       dimension carrying the composite.
     </p>
 
-    <h2>Candidate 3 &mdash; A 1-800-Flowers generic bouquet</h2>
+    <h2>Candidate 3 &mdash; A <a href="https://www.1800flowers.com/" rel="sponsored nofollow" target="_blank" noopener>1-800-Flowers</a> generic bouquet</h2>
     <p>
       A mid-tier delivered bouquet from a dominant mass-market
       florist, selected from the default seasonal assortment.
@@ -153,7 +153,7 @@ useJsonLd(
       inside this rubric.
     </p>
 
-    <h2>Candidate 4 &mdash; A Zingerman&rsquo;s food hamper matched to her taste</h2>
+    <h2>Candidate 4 &mdash; A <a href="https://www.zingermans.com/" rel="sponsored nofollow" target="_blank" noopener>Zingerman&rsquo;s</a> food hamper matched to her taste</h2>
     <p>
       A curated specialty-grocer hamper &mdash; olive oils,
       cheeses, chocolates, or preserves &mdash; selected against
@@ -173,11 +173,12 @@ useJsonLd(
       damaged-goods replacement policy is straightforward.
     </p>
 
-    <h2>Candidate 5 &mdash; A Yankee Candle multi-pack</h2>
+    <h2>Candidate 5 &mdash; A <a href="https://www.yankeecandle.com/" rel="sponsored nofollow" target="_blank" noopener>Yankee Candle</a> multi-pack</h2>
     <p>
       A three-or-four candle multi-pack in seasonal fragrances
       from a dominant mass-market candle brand at a low-to-mid
-      spend band.
+      spend band. Representative listing:
+      <a href="https://www.amazon.com/s?k=Yankee+Candle+multi+pack" rel="sponsored nofollow" target="_blank" noopener>Yankee Candle multi-pack</a>.
     </p>
     <ul>
       <li>Brand &amp; review density: <strong>22 / 30</strong>. The brand is ubiquitous with a long editorial record and dense cross-retailer reviews; the only strong dimension for the candidate.</li>
@@ -233,6 +234,10 @@ useJsonLd(
         &mdash; the rubric itself, with sub-scale ceilings and rationale.
       </li>
     </ul>
+
+    <p class="affiliate-disclosure" style="font-size: 0.85em; color: #5a6e5f; border-top: 1px solid #b87333; padding-top: 16px; margin-top: 32px;">
+      <strong>A note on links:</strong> some product and brand links on this page may route through affiliate programs. When they do, we may earn a commission on a purchase at no cost to the reader. Commission doesn&rsquo;t influence scoring &mdash; the rubric is published and the weights are fixed; see <NuxtLink to="/editorial/">our editorial standards</NuxtLink> for the full policy.
+    </p>
 
     <hr />
     <p>
