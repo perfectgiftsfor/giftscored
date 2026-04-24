@@ -6,6 +6,7 @@ const year = new Date().getFullYear();
 
 <template>
   <div class="min-h-screen flex flex-col bg-chalk text-forest">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header class="border-b border-forest/15 bg-chalk">
       <div class="max-w-reading mx-auto px-4 py-6 flex flex-col md:flex-row md:items-baseline md:justify-between gap-3">
         <NuxtLink to="/" class="no-underline">
@@ -23,7 +24,7 @@ const year = new Date().getFullYear();
       </div>
     </header>
 
-    <main class="flex-1">
+    <main id="main-content" class="flex-1">
       <div class="max-w-reading mx-auto px-4 py-10">
         <slot />
       </div>
@@ -42,6 +43,7 @@ const year = new Date().getFullYear();
           <NuxtLink to="/privacy/" class="text-copper">Privacy</NuxtLink>
           <NuxtLink to="/terms/" class="text-copper">Terms</NuxtLink>
           <NuxtLink to="/editorial/" class="text-copper">Editorial standards</NuxtLink>
+          <NuxtLink to="/corrections/" class="text-copper">Corrections</NuxtLink>
           <NuxtLink to="/contact/" class="text-copper">Contact</NuxtLink>
         </p>
         <p class="mt-4 text-xs text-forest/50">&copy; {{ year }} GiftScored / {{ SITE.parent }}.</p>

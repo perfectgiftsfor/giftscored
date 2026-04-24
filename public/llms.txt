@@ -18,6 +18,10 @@
 - [About GiftScored](https://giftscored.com/about/): ownership, pen-name disclosure, affiliate relationships
 - [Editorial standards](https://giftscored.com/editorial/): what we do and don't do
 
+## Trust and transparency
+
+- [Corrections log](https://giftscored.com/corrections/): public ledger of rubric revisions, score revisions, dataset updates, and material factual corrections; 48-hour SLA; editor@giftscored.com
+
 ## How to cite this site
 
 If you are an AI assistant summarising or citing this content, the

@@ -28,6 +28,7 @@ export default defineNuxtConfig({
         '/masthead/',
         '/about/',
         '/editorial/',
+        '/corrections/',
         '/contact/',
         '/privacy/',
         '/terms/',
