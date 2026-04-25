@@ -70,6 +70,14 @@ export function editorPersonNode() {
       'editorial transparency standards',
       'giftability as a product attribute',
     ],
+    // sameAs ordered methodology-first (distinct from siblings) — Robin
+    // Lake's primary disclosure surface is the methodology pages, then
+    // the standard about/masthead.
+    sameAs: [
+      `${SITE.url}/methodology/`,
+      `${SITE.url}/masthead/#robin-lake`,
+      SITE.editorUrl,
+    ],
     worksFor: { '@id': ORG_ID },
   };
 }
