@@ -10,7 +10,7 @@ import {
 import { SITE } from '~/composables/site';
 
 const DATE_PUBLISHED = '2026-04-23';
-const DATE_MODIFIED = '2026-04-23';
+const DATE_MODIFIED = '2026-04-26';
 
 const title = 'The GiftScored methodology';
 const description =
@@ -121,6 +121,10 @@ useJsonLd(
       <li>
         <NuxtLink to="/methodology/quarterly-refresh/"><strong>Why the rubric runs quarterly</strong></NuxtLink> &mdash;
         what the refresh cycle changes, what triggers an out-of-cycle re-score, and how we version the rubric so an old score can be audited against the rubric that produced it.
+      </li>
+      <li>
+        <NuxtLink to="/methodology/dataset/"><strong>Open dataset &mdash; gift spend bands by relationship and occasion (2026)</strong></NuxtLink> &mdash;
+        a 50-row CSV of editorial spend bands across 11 recipient categories and 30+ occasion contexts, sourced from the published spend-band recommendations across the GiftScored network. Released CC-BY 4.0 with citation format.
       </li>
     </ul>
 
