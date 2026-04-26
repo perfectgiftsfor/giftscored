@@ -2,10 +2,10 @@
   "name": "giftscored",
   "version": "0.1.0",
   "private": true,
-  "description": "giftscored.com — rubric-based gift scoring. Editorial publication by Ramban Group.",
+  "description": "giftscored.com \u2014 rubric-based gift scoring. Editorial publication by Ramban Group.",
   "scripts": {
     "dev": "nuxt dev",
-    "build": "nuxt build",
+    "build": "nuxt build && node scripts/ping-indexnow.mjs",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
