@@ -14,16 +14,25 @@ const DATE_MODIFIED = '2026-04-23';
 
 const title = 'Rubric-based gift scoring — how we think, what we weigh';
 const description =
-  'GiftScored evaluates gifts against a public rubric: brand reputation, category fit, price-to-value, and giftability. We publish the weights, the refresh cycle, and what the rubric cannot know.';
+  'GiftScored evaluates gifts against a public rubric — brand reputation, category fit, price-to-value, giftability. We publish the weights and what the rubric cannot know.';
+const ogImage = SITE.url + '/og-default.png';
 
 useHead({
   title,
   meta: [
     { name: 'description', content: description },
+    { property: 'og:site_name', content: SITE.name },
     { property: 'og:title', content: title },
     { property: 'og:description', content: description },
     { property: 'og:url', content: SITE.url + '/' },
     { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: ogImage },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: title },
+    { name: 'twitter:description', content: description },
+    { name: 'twitter:image', content: ogImage },
   ],
   link: [{ rel: 'canonical', href: SITE.url + '/' }],
 });
