@@ -30,6 +30,7 @@ export default defineNuxtConfig({
         '/editorial/',
         '/corrections/',
         '/contact/',
+        '/disclosures/',
         '/privacy/',
         '/terms/',
       ],

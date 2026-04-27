@@ -57,7 +57,7 @@ useJsonLd(
       get a prompt reply.
     </p>
 
-    <h2>Editorial &mdash; corrections, score questions, reader feedback</h2>
+    <h2>Editorial &mdash; corrections + score questions</h2>
     <p>
       <a href="mailto:editor@giftscored.com">editor@giftscored.com</a>
     </p>
